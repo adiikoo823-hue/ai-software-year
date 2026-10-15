@@ -2,6 +2,11 @@
 
 Kaayyoon koo: waggaa tokko keessatti web, mobile fi AI application ijaaruu.
 
-Guyyaa 1: Workspace qopheessee, index.html jalqabe.
+## Live projects
 
-Guyyaa 2: CSS, JavaScript button fi GitHub.
+- Profile website: https://adiikoo823-hue.github.io/ai-software-year/
+- Student Grade Calculator: https://adiikoo823-hue.github.io/ai-software-year/grade-calculator/
+
+## Progress
+
+- Guyyaa 1 hanga 7: HTML, CSS, JavaScript, Flexbox, Git, GitHub Pages.
