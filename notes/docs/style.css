@@ -1,0 +1,195 @@
+/* ===== Base ===== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f7fb;
+    color: #1d2b3a;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #16324f;
+    margin: 0 0 12px;
+}
+
+h2 {
+    color: #1f7a8c;
+    border-bottom: 2px solid #d5e3ea;
+    padding-bottom: 6px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #16324f;
+}
+
+p {
+    font-size: 17px;
+}
+
+a {
+    color: #1f7a8c;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 24px;
+    background-color: #16324f;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #7fd1e0;
+}
+
+/* ===== Layout ===== */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border: 2px solid #1f7a8c;
+    border-radius: 12px;
+}
+
+section {
+    margin-top: 32px;
+}
+
+/* ===== Header ===== */
+header {
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1f7a8c;
+    margin: 8px 0 12px;
+}
+
+/* ===== Skill cards ===== */
+.cards {
+    display: flex;
+    gap: 16px;
+    margin: 14px 0;
+}
+
+.card {
+    flex: 1;
+    padding: 16px;
+    background-color: #eef4f8;
+    border: 1px solid #c8d4de;
+    border-radius: 12px;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.card:hover {
+    border-color: #1f7a8c;
+    transform: translateY(-4px);
+}
+
+/* ===== Form ===== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #b8c4ce;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid #1f7a8c;
+    border-color: #1f7a8c;
+}
+
+button {
+    padding: 10px 16px;
+    background-color: #1f7a8c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #16606e;
+}
+
+#message,
+#formResult {
+    color: #16606e;
+    font-weight: bold;
+}
+
+/* ===== Footer ===== */
+footer {
+    margin-top: 36px;
+    text-align: center;
+    color: #5b6b7a;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .container {
+        margin: 16px;
+        padding: 20px;
+    }
+}

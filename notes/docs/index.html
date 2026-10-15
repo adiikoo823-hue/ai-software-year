@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <span class="logo">Adinan</span>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Adinan Ebrahim</h1>
+            <img src="profile.jpg" alt="Photo of Adinan">
+            <p>I am a software engineering student.</p>
+            <p>I am learning Full-Stack Development and AI.</p>
+        </header>
+
+        <main>
+            <section id="about">
+                <h2>My Goals</h2>
+                <p>I want to build web and mobile applications.</p>
+            </section>
+
+            <section id="skills">
+                <h2>My Skills</h2>
+                <div class="cards">
+                    <div class="card">
+                        <h3>HTML</h3>
+                        <p>Structure of websites.</p>
+                    </div>
+                    <div class="card">
+                        <h3>CSS</h3>
+                        <p>Style and layout.</p>
+                    </div>
+                    <div class="card">
+                        <h3>JavaScript</h3>
+                        <p>Makes websites interactive.</p>
+                    </div>
+                </div>
+                <p>Visit my first project: <a href="https://www.google.com">Google</a></p>
+            </section>
+
+            <section>
+                <h2>Learning Journey</h2>
+                <h3>What I know</h3>
+                <p>I know a little JavaScript.</p>
+                <h3>What I am learning</h3>
+                <p>HTML, CSS, Python and React.</p>
+                <button id="greetBtn">Click me</button>
+                <p id="message"></p>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <form id="contactForm">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="you@example.com">
+
+                    <label for="msg">Message</label>
+                    <textarea id="msg" rows="4" placeholder="Write your message"></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+                <p id="formResult"></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>Adinan Ebrahim - 2026</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
