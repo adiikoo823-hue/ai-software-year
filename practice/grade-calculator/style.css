@@ -43,3 +43,25 @@ button {
 #result {
     font-weight: bold;
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #d5e3ea;
+}
+
+th {
+    background-color: #eef4f8;
+    color: #16324f;
+}
+
+.pass { color: #1b7f3b; font-weight: bold; }
+.fail { color: #c0392b; font-weight: bold; }
+
+.message { color: #c0392b; }
+.summary { color: #16324f; }
