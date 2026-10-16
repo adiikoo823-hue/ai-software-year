@@ -74,3 +74,19 @@ li {
     color: #5b6b7a;
     font-size: 14px;
 }
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.delete-btn {
+    padding: 6px 10px;
+    background-color: #c0392b;
+    font-size: 14px;
+}
+
+.delete-btn:hover {
+    background-color: #962d22;
+}
