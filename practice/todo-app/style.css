@@ -90,3 +90,51 @@ li {
 .delete-btn:hover {
     background-color: #962d22;
 }
+.filters {
+    display: flex;
+    gap: 8px;
+    margin: 12px 0;
+}
+
+.filter-btn {
+    padding: 6px 12px;
+    background-color: #eef4f8;
+    color: #16324f;
+    border: 1px solid #c8d4de;
+    font-size: 14px;
+}
+
+.filter-btn:hover {
+    background-color: #dbe9f0;
+}
+
+.filter-btn.active {
+    background-color: #1f7a8c;
+    color: white;
+    border-color: #1f7a8c;
+}
+
+input[type="checkbox"] {
+    flex: none;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+}
+
+li span {
+    flex: 1;
+}
+
+li.done span {
+    text-decoration: line-through;
+    color: #8a99a8;
+}
+
+li.empty {
+    color: #8a99a8;
+    justify-content: center;
+}
+
+.delete-btn {
+    margin-left: auto;
+}
